@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:minHeight="48dp"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/widget_tvLessonNum"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_tvLessonTime"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#555555" />
+
+    <LinearLayout
+        android:id="@+id/widget_item_info_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/widget_tvLessonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="#222222"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/widget_tvLessonTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="#666666"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

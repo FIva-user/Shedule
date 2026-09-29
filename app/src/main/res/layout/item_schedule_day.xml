@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorOutlineVariant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="#DBDADA"
+                android:paddingVertical="8dp"
+                android:text="@string/lesson_number"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="#E4E4E4"
+                android:paddingVertical="8dp"
+                android:text="@string/lesson_time"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F0F0F0"
+                android:paddingVertical="8dp"
+                android:text="@string/lesson_name"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/colorOutlineVariant"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tvLessonNum1"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:gravity="center"
+                android:background="@color/color_para"/>
+
+            <TextView
+                android:id="@+id/tvLessonTime1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@color/color_time"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="8dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@color/color_lesson">
+
+                <TextView
+                    android:id="@+id/tvLessonName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+                <TextView
+                    android:id="@+id/tvLessonName1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/colorOutlineVariant" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tvLessonNum2"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:gravity="center"
+                android:background="@color/color_para"/>
+
+            <TextView
+                android:id="@+id/tvLessonTime2"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@color/color_time"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="8dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@color/color_lesson">
+
+                <TextView
+                    android:id="@+id/tvLessonName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+                <TextView
+                    android:id="@+id/tvLessonName2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/colorOutlineVariant" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tvLessonNum3"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:gravity="center"
+                android:background="@color/color_para"/>
+
+            <TextView
+                android:id="@+id/tvLessonTime3"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@color/color_time"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="8dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@color/color_lesson">
+
+                <TextView
+                    android:id="@+id/tvLessonName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+                <TextView
+                    android:id="@+id/tvLessonName3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/colorOutlineVariant" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tvLessonNum4"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:gravity="center"
+                android:background="@color/color_para"/>
+
+            <TextView
+                android:id="@+id/tvLessonTime4"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@color/color_time"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="8dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@color/color_lesson">
+
+                <TextView
+                    android:id="@+id/tvLessonName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+                <TextView
+                    android:id="@+id/tvLessonName4_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/colorOutlineVariant" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tvLessonNum5"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:gravity="center"
+                android:background="@color/color_para"/>
+
+            <TextView
+                android:id="@+id/tvLessonTime5"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@color/color_time"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="8dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@color/color_lesson">
+
+                <TextView
+                    android:id="@+id/tvLessonName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+                <TextView
+                    android:id="@+id/tvLessonName5_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="?attr/colorOutlineVariant" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#F4F3F3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

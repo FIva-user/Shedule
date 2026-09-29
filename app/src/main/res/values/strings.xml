@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Расписание</string>
+    <string name="toolbar">Расписание</string>
+    <string name="choose">Выбрать</string>
+    <string name="lesson_number">Пара</string>
+    <string name="lesson_time">Время</string>
+    <string name="lesson_name">Предмет</string>
+    <string name="one_day">Один день</string>
+    <string name="week">Неделя</string>
+    <string name="reset">Сбросить настройки группы</string>
+</resources>
