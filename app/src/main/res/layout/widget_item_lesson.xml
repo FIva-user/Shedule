@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/widget_item_root"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="55dp"
     android:orientation="horizontal"
     android:gravity="center_vertical"
     android:minHeight="48dp"
@@ -11,28 +11,30 @@
     <TextView
         android:id="@+id/widget_tvLessonNum"
         android:layout_width="40dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
+        android:background="#F3C6D4FD"
         android:textColor="#333333"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/widget_tvLessonTime"
         android:layout_width="70dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:textSize="12sp"
+        android:background="#F3D8E5FF"
         android:gravity="center"
         android:textColor="#555555" />
 
     <LinearLayout
         android:id="@+id/widget_item_info_container"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:padding="6dp"
         android:gravity="center"
         android:orientation="vertical"
-        android:background="#FFFFFF">
+        android:background="#F2F6FB">
 
         <TextView
             android:id="@+id/widget_tvLessonName"

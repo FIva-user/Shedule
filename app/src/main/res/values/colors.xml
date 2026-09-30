@@ -2,10 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="light_btn_background">#DEDEDE</color>
-    <color name="light_btn_stroke">#D1D1D6</color>
-    <color name="light_color_outline">#3C3C3C</color>
-    <color name="color_para">#DEDEDE</color>
-    <color name="color_time">#F0F0F0</color>
-    <color name="color_lesson">#FFFFFF</color>
+    <color name="btn_background">#DEDEDE</color>
+    <color name="btn_stroke">#F3D8E5FF</color>
+    <color name="color_outline_variant">#F3C6CDE2</color>
+    <color name="color_outline">#3C3C3C</color>
+
+    <color name="color_para">#F3C6D4FD</color>
+    <color name="color_time">#F3D8E5FF</color>
+    <color name="color_header">#FBE9F1FF</color>
+    <color name="color_lesson">#F2F6FB</color>
+
+    <color name="color_buttons">#FF000000</color>
+    <color name="button_choose_active">#F3789FFF</color>
+    <color name="button_choose_unactive">#FBE9F1FF</color>
+    <color name="button_text">#FF000000</color>
+
 </resources>

@@ -6,6 +6,7 @@
     android:layout_margin="8dp"
     app:cardCornerRadius="12dp"
     app:strokeWidth="1dp"
+    android:background="?attr/android:windowBackground"
     app:strokeColor="?attr/colorOutlineVariant">
 
     <LinearLayout
@@ -20,13 +21,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="@color/black"
             android:baselineAligned="false">
 
 
             <TextView
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
-                android:background="#DBDADA"
+                android:background="@color/color_para"
                 android:paddingVertical="8dp"
                 android:text="@string/lesson_number"
                 android:textStyle="bold"
@@ -35,7 +37,7 @@
             <TextView
                 android:layout_width="70dp"
                 android:layout_height="match_parent"
-                android:background="#E4E4E4"
+                android:background="@color/color_time"
                 android:paddingVertical="8dp"
                 android:text="@string/lesson_time"
                 android:textStyle="bold"
@@ -45,7 +47,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#F0F0F0"
+                android:background="@color/color_header"
                 android:paddingVertical="8dp"
                 android:text="@string/lesson_name"
                 android:textStyle="bold"
@@ -341,7 +343,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#F4F3F3"
+            android:background="@color/color_header"
             android:gravity="center"
             android:orientation="horizontal">
 

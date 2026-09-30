@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.fiva.shedule.backend.struct.Group;
@@ -47,11 +48,12 @@ public class GroupGridAdapter extends RecyclerView.Adapter<GroupGridAdapter.View
         Group item = groupsList.get(position);
         holder.textView.setText(item.getName());
         holder.textView.setSelected(selectedPosition == position);
+        int myColor = ContextCompat.getColor(holder.itemView.getContext(), R.color.button_text);
 
         if (holder.textView.isSelected()) {
             holder.textView.setTextColor(Color.WHITE);
         } else {
-            holder.textView.setTextColor(Color.BLACK);
+            holder.textView.setTextColor(myColor);
         }
 
         holder.itemView.setOnClickListener(view -> {

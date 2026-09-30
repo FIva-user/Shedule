@@ -6,7 +6,7 @@
     android:layout_margin="6dp"
     android:background="@drawable/item_button_background"
     android:gravity="center"
-    android:textColor="#000000"
+    android:textColor="@color/button_text"
     android:textSize="16sp">
 
 </TextView>

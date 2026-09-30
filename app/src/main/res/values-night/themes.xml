@@ -1,7 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Shedule" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#1F2943</item>
+        <item name="colorOnPrimary">#1C1B1F</item>
+        <item name="android:windowBackground">#191F33</item>
+        <item name="colorSurfaceVariant">@color/btn_background</item>
+        <item name="colorOutlineVariant">@color/color_outline_variant</item>
+        <item name="colorOutline">@color/color_outline</item>
     </style>
+    <style name="ToolbarTitleTheme" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Theme.Shedule" parent="Base.Theme.Shedule" />
 </resources>
