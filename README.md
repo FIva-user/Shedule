@@ -9,3 +9,5 @@ The "Schedule" app is designed to provide a convenient way for users to interact
 
 Download link https://github.com/FIva-user/Shedule/releases/download/v1.0.0/Schedule.apk . 
 (A warning from Google Play may appear during installation; simply tap "Install anyway" to proceed). Using a device running Android 15 or higher is recommended.
+
+Support: fivaofficialmail@gmail.com
